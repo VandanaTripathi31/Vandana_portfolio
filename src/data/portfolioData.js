@@ -54,55 +54,89 @@ export const skillsContent = {
     {
       number: "01",
       title: "Discover & Scope",
-      text: "Understanding the problem, mapping requirements, and analyzing business goals."
+      text: "Understanding the problem, mapping requirements, and analyzing business goals.",
     },
     {
       number: "02",
       title: "Architect & Plan",
-      text: "Designing scalable technical architecture, choosing the stack, and structuring databases."
+      text: "Designing scalable technical architecture, choosing the stack, and structuring databases.",
     },
     {
       number: "03",
       title: "Design & Build",
-      text: "Developing highly reliable server-side logic, API services, and robust UI components."
+      text: "Developing highly reliable server-side logic, API services, and robust UI components.",
     },
     {
       number: "04",
       title: "Test & Optimize",
-      text: "Testing workflows, resolving issues, and ensuring maximum performance and accessibility."
+      text: "Testing workflows, resolving issues, and ensuring maximum performance and accessibility.",
     },
     {
       number: "05",
       title: "Launch & Scale",
-      text: "Deploying secure, production-ready applications with continuous optimization strategies."
-    }
+      text: "Deploying secure, production-ready applications with continuous optimization strategies.",
+    },
   ],
-  endText: "Ready for production!"
+  endText: "Ready for production!",
 };
 
 export const technicalSkills = {
   categories: [
     {
       title: "Frontend Development",
-      skills: ["React.js", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "ShadCN UI", "Redux Toolkit Query", "TanStack Query", "React Hook Form", "Zod"]
+      skills: [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "ShadCN UI",
+        "Redux Toolkit Query",
+        "TanStack Query",
+        "React Hook Form",
+        "Zod",
+      ],
     },
     {
       title: "Backend & Databases",
-      skills: ["Node.js", "Express.js", "MongoDB", "SQL", "Postgres", "RESTful APIs", "JWT", "CASL"]
+      skills: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "SQL",
+        "Postgres",
+        "RESTful APIs",
+        "JWT",
+        "CASL",
+      ],
     },
     {
       title: "APIs & Integrations",
-      skills: ["Stripe Payment Gateway", "Twilio API", "Google Maps API"]
+      skills: ["Stripe Payment Gateway", "Twilio API", "Google Maps API"],
     },
     {
       title: "Tools & Cloud",
-      skills: ["Git", "GitHub", "Postman", "VS Code", "Vercel", "Render", "Netlify", "AWS (Basics)"]
+      skills: [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code",
+        "Vercel",
+        "Render",
+        "Netlify",
+        "AWS (Basics)",
+      ],
     },
     {
       title: "Soft Skills",
-      skills: ["Leadership", "Adaptability", "Teamwork", "Business-first engineering"]
-    }
-  ]
+      skills: [
+        "Leadership",
+        "Adaptability",
+        "Teamwork",
+        "Business-first engineering",
+      ],
+    },
+  ],
 };
 
 export const projects = [
@@ -113,13 +147,20 @@ export const projects = [
     title: "Nature's National India",
     description:
       "Built full-stack e-commerce platform with admin dashboard for product, order, and customer management. Integrated AI chatbot for customer support and role-based authentication for admin operations.",
-    techTags: ["React.js", "Node.js", "MongoDB", "Admin Dashboard", "AI Chatbot", "Role-based Auth"],
+    techTags: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Admin Dashboard",
+      "AI Chatbot",
+      "Role-based Auth",
+    ],
     links: {
       github: "https://github.com/VandanaTripathi31/NaturesnationalIndia",
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://naturesnational.vercel.app/",
     },
-    previewImage: "/src/assets/vandana/projects/natures-national-preview.png",
+    previewImage: "/src/assets/vandana/projects/natures.png",
     isFlagship: true,
   },
   {
@@ -129,7 +170,14 @@ export const projects = [
     title: "Dellcube Logistics Management System",
     description:
       "Developed fleet, inventory, and warehouse modules with route optimization and JWT-secured role dashboards, improving security 45%. Designed scalable MongoDB schema supporting production deployment for live client operations.",
-    techTags: ["React", "Node.js", "MongoDB", "JWT", "Route Optimization", "Dashboard"],
+    techTags: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "JWT",
+      "Route Optimization",
+      "Dashboard",
+    ],
     links: {
       github: "https://github.com/VandanaTripathi31/DellCube-Lms",
       githubProfile: "https://github.com/VandanaTripathi31",
@@ -147,7 +195,7 @@ export const projects = [
       "Developed a premium business website to showcase the Diloara brand. Focused on high performance and clean UI.",
     techTags: ["React", "Frontend Development", "Responsive Design"],
     links: {
-      github: null,
+      github: "https://github.com/VandanaTripathi31/Dillora-Kashvin",
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://diloarabykashvin.netlify.app/",
     },
@@ -163,7 +211,7 @@ export const projects = [
       "Built the FrameNest platform focusing on modern web aesthetics, seamless user interaction, and robust component architecture.",
     techTags: ["React", "Web Architecture"],
     links: {
-      github: null,
+      github: "https://github.com/VandanaTripathi31/Photo-Frame",
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://framenest.vercel.app/",
     },
@@ -179,7 +227,7 @@ export const projects = [
       "Delivered a professional digital presence for New United, ensuring responsive layout across all device viewports.",
     techTags: ["Frontend Development", "Performance Optimization"],
     links: {
-      github: null,
+      github: "https://github.com/VandanaTripathi31/NewUnited",
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://newunited-bb75a.netlify.app/",
     },
@@ -194,17 +242,19 @@ export const certificates = {
       name: "AWS Academy Graduate",
       issuer: "AWS",
       icon: "☁️",
-      link: null,
-      verifyLink: null,
-      desc: "Completed AWS Academy foundational training for cloud computing."
+      link: "https://drive.google.com/file/d/1sgX4hUOyL5Q9ZzPJETxYUAol-hWl9cel/preview",
+      verifyLink:
+        "https://drive.google.com/file/d/1sgX4hUOyL5Q9ZzPJETxYUAol-hWl9cel/preview",
+      desc: "Completed AWS Academy foundational training for cloud computing.",
     },
     {
       name: "Associate Cloud Engineer",
       issuer: "Google Cloud",
       icon: "☁️",
-      link: null,
-      verifyLink: null,
-      desc: "Certified as Associate Cloud Engineer for Google Cloud ecosystem."
+      link: "https://drive.google.com/file/d/1uE6jVUGsSXynaEJHvOCDKMWNvbEL65Yv/preview",
+      verifyLink:
+        "https://drive.google.com/file/d/1uE6jVUGsSXynaEJHvOCDKMWNvbEL65Yv/preview",
+      desc: "Certified as Associate Cloud Engineer for Google Cloud ecosystem.",
     },
     {
       name: "Technical Member",
@@ -212,9 +262,9 @@ export const certificates = {
       icon: "👨‍💻",
       link: null,
       verifyLink: null,
-      desc: "Active technical member organizing and contributing to university developer initiatives."
+      desc: "Active technical member organizing and contributing to university developer initiatives.",
     },
-  ]
+  ],
 };
 
 export const educationList = [
@@ -223,8 +273,8 @@ export const educationList = [
     degree: "B.E in Computer Engineering (Honors in Cyber Security)",
     duration: "Graduated 2025",
     location: "Mumbai, India",
-    gpa: "7.50 CGPA"
-  }
+    gpa: "7.50 CGPA",
+  },
 ];
 
 export const experienceList = [
@@ -236,9 +286,16 @@ export const experienceList = [
     responsibilities: [
       "Architected scalable SaaS dashboards for Admin, Reseller, and User roles on a WhatsApp automation platform using Next.js and TypeScript.",
       "Implemented CRUD workflows across 6 core modules (chats, campaigns, templates, tickets, invoices, calls) using Redux Toolkit Query and TanStack Query.",
-      "Enforced multi-tenant role-based access control (CASL) and built type-safe forms with React Hook Form and Zod, reducing input errors."
+      "Enforced multi-tenant role-based access control (CASL) and built type-safe forms with React Hook Form and Zod, reducing input errors.",
     ],
-    tech: ["Next.js", "TypeScript", "Redux Toolkit Query", "TanStack Query", "CASL", "Zod"]
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit Query",
+      "TanStack Query",
+      "CASL",
+      "Zod",
+    ],
   },
   {
     organization: "TAX-O-SMART",
@@ -248,10 +305,10 @@ export const experienceList = [
     responsibilities: [
       "Delivered GST/TDS dashboard features for 10,000+ active users, supporting daily financial operations across India.",
       "Built reusable React + Tailwind component system, cutting development time 40% and boosting UI performance 30%.",
-      "Optimized large-dataset rendering (tables, filters, search), improving workflow efficiency 35% and reducing production bugs 25%."
+      "Optimized large-dataset rendering (tables, filters, search), improving workflow efficiency 35% and reducing production bugs 25%.",
     ],
-    tech: ["React", "Tailwind CSS", "Data Rendering Optimization"]
-  }
+    tech: ["React", "Tailwind CSS", "Data Rendering Optimization"],
+  },
 ];
 
 export const footerContent = {
@@ -265,7 +322,10 @@ export const footerContent = {
 };
 
 export const emailjsConfig = {
-  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
-  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
-  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_EMAILJS_PUBLIC_KEY",
+  serviceId:
+    import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
+  templateId:
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
+  publicKey:
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_EMAILJS_PUBLIC_KEY",
 };
