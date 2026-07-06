@@ -197,7 +197,7 @@ export const projects = [
     links: {
       github: "https://github.com/VandanaTripathi31/Dillora-Kashvin",
       githubProfile: "https://github.com/VandanaTripathi31",
-      demo: "https://diloarabykashvin.netlify.app/",
+      demo: "https://dillora-kashvin.vercel.app/",
     },
     previewImage: "/vandana/projects/diloara-kashvin-preview.png",
     isFlagship: false,
