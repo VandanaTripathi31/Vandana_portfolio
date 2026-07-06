@@ -160,7 +160,7 @@ export const projects = [
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://naturesnational.vercel.app/",
     },
-    previewImage: "public/vandana/projects/natures.png",
+    previewImage: "/vandana/projects/natures.png",
     isFlagship: true,
   },
   {
@@ -183,7 +183,7 @@ export const projects = [
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://dellcube.com/",
     },
-    previewImage: "public/vandana/projects/dellcube-preview.png",
+    previewImage: "/vandana/projects/dellcube-preview.png",
     isFlagship: true,
   },
   {
@@ -199,7 +199,7 @@ export const projects = [
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://diloarabykashvin.netlify.app/",
     },
-    previewImage: "public/vandana/projects/diloara-kashvin-preview.png",
+    previewImage: "/vandana/projects/diloara-kashvin-preview.png",
     isFlagship: false,
   },
   {
@@ -215,7 +215,7 @@ export const projects = [
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://framenest.vercel.app/",
     },
-    previewImage: "public/vandana/projects/framenest-preview.png",
+    previewImage: "/vandana/projects/framenest-preview.png",
     isFlagship: false,
   },
   {
@@ -231,7 +231,7 @@ export const projects = [
       githubProfile: "https://github.com/VandanaTripathi31",
       demo: "https://newunited-bb75a.netlify.app/",
     },
-    previewImage: "public/vandana/projects/new-united-preview.png",
+    previewImage: "/vandana/projects/new-united-preview.png",
     isFlagship: false,
   },
 ];
