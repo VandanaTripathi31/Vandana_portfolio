@@ -16,7 +16,7 @@ export const personalInfo = {
   },
   summary:
     "Frontend/Full Stack Developer building scalable SaaS platforms with React.js, Next.js, TypeScript, and Node.js for 10,000+ users. Delivered 30%+ performance gains through reusable architecture, secure role-based systems, and optimized API integrations.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "vandana/resume.pdf",
 };
 
 export const socialLinks = {
@@ -36,7 +36,7 @@ export const heroContent = {
     text: "Contact Me",
     href: "mailto:vandanagenai31@gmail.com?subject=Inquiry – Portfolio&body=Hello Vandana,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/resume.pdf" },
+  ctaResume: { text: "Download Resume", href: "vandana/resume.pdf" },
 };
 
 export const aboutContent = {
